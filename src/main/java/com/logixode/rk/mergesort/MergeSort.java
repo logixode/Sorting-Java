@@ -21,7 +21,7 @@ public class MergeSort {
     }
     
     public static void merge( int inputArray[], int start, int mid, int end ) {
-        int tempArray[] = new int [end +1];
+        int tempArray[] = new int [end - start +1];
         
         int leftSlot = start;
         int rightSlot = mid+1;
